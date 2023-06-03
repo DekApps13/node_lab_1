@@ -1,0 +1,6 @@
+const funciones = require("./funciones")
+console.log(`La suma es: ${funciones.suma(7, 3)}`)
+console.log(`La resta es: ${funciones.resta(23, 3)}`)
+console.log(`La multiplicacion es: ${funciones.multiplicacion(4, 3)}`)
+console.log(`La division es: ${funciones.division(6, 0)}`)
+console.log(`La division es: ${funciones.division(81, 9)}`)

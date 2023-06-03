@@ -1,0 +1,17 @@
+//14
+const os = require("os")
+
+console.log("informacion de los CPUs:")
+console.log(os.cpus())
+console.log("Total de Memoria:")
+console.log(os.totalmem())
+console.log("Memoria Libre:")
+console.log(os.freemem())
+console.log("Arquitectura:")
+console.log(os.arch())
+console.log("Ruta Base:")
+console.log(os.homedir())
+console.log("Nombre del Host:")
+console.log(os.hostname())
+console.log("Interfaces de Red:")
+console.log(os.networkInterfaces())
